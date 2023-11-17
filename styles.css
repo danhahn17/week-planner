@@ -19,7 +19,7 @@
   padding-bottom: 10px;
 }
 
-table:nth-child(odd) {
+table:nth-child(even) {
   background: grey;
 }
 
@@ -41,4 +41,9 @@ table:nth-child(odd) {
   background-color: rgb(153, 152, 152);
   border: 0;
   border-radius: 5px;
+}
+
+.row {
+  justify-content: space-around;
+  width: 100%;
 }
