@@ -13,156 +13,158 @@
   </head>
 
   <body>
-    <div class="modal_full hidden">
-      <label for="new-event" class="">Time of Event</label>
-      <select name="new-event" class="">
-        <option selected value="">Choose a time</option>
-        <option value="" class="EventJs">00:00</option>
-        <option value="" class="EventJs">01:00</option>
-        <option value="" class="EventJs">02:00</option>
-        <option value="" class="EventJs">03:00</option>
-        <option value="" class="EventJs">04:00</option>
-        <option value="" class="EventJs">05:00</option>
-        <option value="" class="EventJs">06:00</option>
-        <option value="" class="EventJs">07:00</option>
-        <option value="" class="EventJs">08:00</option>
-        <option value="" class="EventJs">09:00</option>
-        <option value="" class="EventJs">10:00</option>
-        <option value="" class="EventJs">11:00</option>
-        <option value="" class="EventJs">12:00</option>
-        <option value="" class="EventJs">13:00</option>
-        <option value="" class="EventJs">14:00</option>
-        <option value="" class="EventJs">15:00</option>
-        <option value="" class="EventJs">16:00</option>
-        <option value="" class="EventJs">17:00</option>
-        <option value="" class="EventJs">18:00</option>
-        <option value="" class="EventJs">19:00</option>
-        <option value="" class="EventJs">20:00</option>
-        <option value="" class="EventJs">21:00</option>
-        <option value="" class="EventJs">22:00</option>
-        <option value="" class="EventJs">23:00</option>
-      </select>
-      <label for="day-of-week" class="">Day of Week</label>
-      <select name="day-of-week" class="">
-        <option selected value="">Choose a day</option>
-        <option value="">Monday</option>
-        <option value="">Tuesday</option>
-        <option value="">Wednesday</option>
-        <option value="">Thursday</option>
-        <option value="">Friday</option>
-        <option value="">Saturday</option>
-        <option value="">Sunday</option>
-      </select>
-      <label for="text-area" class="">Event Information</label>
-      <textarea class=""></textarea>
+    <div class="overlay">
+      <div class="modal_full hidden">
+        <label for="new-event" class="">Time of Event</label>
+        <select name="new-event" class="">
+          <option selected value="">Choose a time</option>
+          <option value="" class="EventJs">00:00</option>
+          <option value="" class="EventJs">01:00</option>
+          <option value="" class="EventJs">02:00</option>
+          <option value="" class="EventJs">03:00</option>
+          <option value="" class="EventJs">04:00</option>
+          <option value="" class="EventJs">05:00</option>
+          <option value="" class="EventJs">06:00</option>
+          <option value="" class="EventJs">07:00</option>
+          <option value="" class="EventJs">08:00</option>
+          <option value="" class="EventJs">09:00</option>
+          <option value="" class="EventJs">10:00</option>
+          <option value="" class="EventJs">11:00</option>
+          <option value="" class="EventJs">12:00</option>
+          <option value="" class="EventJs">13:00</option>
+          <option value="" class="EventJs">14:00</option>
+          <option value="" class="EventJs">15:00</option>
+          <option value="" class="EventJs">16:00</option>
+          <option value="" class="EventJs">17:00</option>
+          <option value="" class="EventJs">18:00</option>
+          <option value="" class="EventJs">19:00</option>
+          <option value="" class="EventJs">20:00</option>
+          <option value="" class="EventJs">21:00</option>
+          <option value="" class="EventJs">22:00</option>
+          <option value="" class="EventJs">23:00</option>
+        </select>
+        <label for="day-of-week" class="">Day of Week</label>
+        <select name="day-of-week" class="">
+          <option selected value="">Choose a day</option>
+          <option value="">Monday</option>
+          <option value="">Tuesday</option>
+          <option value="">Wednesday</option>
+          <option value="">Thursday</option>
+          <option value="">Friday</option>
+          <option value="">Saturday</option>
+          <option value="">Sunday</option>
+        </select>
+        <label for="text-area" class="">Event Information</label>
+        <textarea class=""></textarea>
 
-      <div class="flex-container">
-        <button class="button-styling padding-fixed cancel">Cancel</button>
-        <button class="button-styling padding-fixed btn-success">
-          Confirm
-        </button>
-      </div>
-    </div>
-
-    <div>
-      <h1 class="text-cap center">Weekly Planner</h1>
-      <h2 class="text-cap center">Choose Day to Show Events</h2>
-
-      <!-- Day of the week option's and section's selection's-->
-      <label for="select" class="center spacing">Day of Week</label>
-      <select name="sel" id="id" class="option-size">
-        <option value="" selected>Monday</option>
-        <option value="">Tuesday</option>
-        <option value="">Wednesday</option>
-        <option value="">Thursday</option>
-        <option value="">Friday</option>
-        <option value="">Saturday</option>
-        <option value="">Sunday</option>
-      </select>
-
-      <!-- Adding a new event button-->
-      <div class="button-center">
-        <button class="button-spacing button-styling modalShower">
-          Add New Event
-        </button>
+        <div class="flex-container">
+          <button class="button-styling padding-fixed cancel">Cancel</button>
+          <button class="button-styling padding-fixed btn-success">
+            Confirm
+          </button>
+        </div>
       </div>
 
-      <!-- table -->
-      <table class="table-styling">
-        <thead class="text-cap">
-          <tr>
-            <th scope="col">Time</th>
-            <th scope="col">Event</th>
-            <th scope="col">Actions</th>
-          </tr>
-        </thead>
+      <div>
+        <h1 class="text-cap center">Weekly Planner</h1>
+        <h2 class="text-cap center">Choose Day to Show Events</h2>
 
-        <tbody>
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+        <!-- Day of the week option's and section's selection's-->
+        <label for="select" class="center spacing">Day of Week</label>
+        <select name="sel" id="id" class="option-size">
+          <option value="" selected>Monday</option>
+          <option value="">Tuesday</option>
+          <option value="">Wednesday</option>
+          <option value="">Thursday</option>
+          <option value="">Friday</option>
+          <option value="">Saturday</option>
+          <option value="">Sunday</option>
+        </select>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+        <!-- Adding a new event button-->
+        <div class="button-center">
+          <button class="button-spacing button-styling modalShower">
+            Add New Event
+          </button>
+        </div>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+        <!-- table -->
+        <table class="table-styling">
+          <thead class="text-cap">
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Event</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
 
-          <tr>
-            <td>row1</td>
-            <td>row2</td>
-            <td>row3</td>
-          </tr>
-        </tbody>
-      </table>
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
 
-      <p>2023 Week Planner Inc</p>
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
+
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
+
+            <tr>
+              <td>row1</td>
+              <td>row2</td>
+              <td>row3</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>2023 Week Planner Inc</p>
+
+        <script src="main.js"></script>
+      </div>
     </div>
-
-    <script src="main.js"></script>
   </body>
 </html>

@@ -98,7 +98,17 @@ th {
   margin: auto;
   top: 40%;
   left: 37%;
+  background: white;
 }
+
+/* .overlay {
+  background: rgb(189, 189, 189);
+  height: 100 vh;
+  width: 100 vw;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
 
 /* HIDE the Modal's and it's content's */
 
