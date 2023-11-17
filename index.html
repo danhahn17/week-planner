@@ -8,12 +8,12 @@
   </head>
   <body>
     <div id="flex-container">
-      <h1 class="text-cap">weekly planner</h1>
-      <h2 class="text-cap">choose day to show events</h2>
+      <h1 class="text-cap center">weekly planner</h1>
+      <h2 class="text-cap center">choose day to show events</h2>
 
       <!-- Day of the week option's and section's selection's-->
-      <label for="select">Day of Week</label>
-      <select name="sel" id="id">
+      <label for="select" class="center spacing">Day of Week</label>
+      <select name="sel" id="id" class="option-size">
         <option value="" selected>Monday</option>
         <option value=""></option>
         <option value=""></option>
@@ -24,34 +24,35 @@
       </select>
 
       <!-- Adding a new event button-->
-      <button>Add a new event</button>
+      <button class="button-spacing button-styling">Add New Event</button>
 
       <!-- table -->
+      <div>
+        <table>
+          <thead class="text-cap">
+            <tr>
+              <th>Time</th>
+              <th>Event</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
 
-      <table>
-        <thead class="text-cap">
-          <tr>
-            <th>Time</th>
-            <th>Event</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <script src="main.js"></script>
