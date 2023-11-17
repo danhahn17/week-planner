@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -30,6 +35,10 @@ table:nth-child(even) {
   margin: 0 auto;
 }
 
+/* .table-styling {
+  border: solid 1px;
+} */
+
 .button-spacing {
   margin-top: 50px;
 }
@@ -42,13 +51,6 @@ table:nth-child(even) {
   border: 0;
   border-radius: 5px;
 }
-
-
-
-
-
-
-
 
 .row {
   justify-content: space-around;
