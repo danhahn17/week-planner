@@ -1,0 +1,13 @@
+.text-cap {
+  text-transform: uppercase;
+}
+
+/* flex the whole body to center the page content's */
+#flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+table:nth-child(odd) {
+  background: grey;
+}
