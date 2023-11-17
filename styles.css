@@ -1,3 +1,4 @@
+body{background-color:#f4f4f4;position:relative}
 /* flex the whole body to center the page content's */
 .flex-container {
   display: flex;
@@ -73,7 +74,16 @@ th {
   justify-content: flex-start;
   padding: 5px;
   margin: auto;
+  top:40%;
+  /* z-index:2 */
+  left:37%
 }
+
+/* HIDE the Modal's and it's content's */
+
+.hidden{display:none}
+/* show the modal again */
+.block{display:block}
 
 td {
   padding: 5px;
@@ -108,3 +118,4 @@ select {
   background: green;
   color: #fff;
 }
+button{cursor:pointer}
