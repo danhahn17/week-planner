@@ -29,9 +29,11 @@ table {
   width: 100%;
 }
 
-table tr:nth-child(even) {
+table tr:nth-child(odd) {
   background: grey;
 }
+
+th{background-color:#fff}
 
 .option-size {
   display: flex;
@@ -57,9 +59,8 @@ table tr:nth-child(even) {
   border-radius: 5px;
 }
 
-table,
-th,
-td {
+/* table td:nth-child(even) {
+  background:red;
   border: 1px solid black;
   border-collapse: collapse;
-}
+} */
